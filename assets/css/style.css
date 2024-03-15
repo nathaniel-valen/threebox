@@ -1,0 +1,89 @@
+*{
+    /* outline: 1px solid red; */
+}
+
+.container-movie-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Memusatkan container */
+    max-width: calc(300px * 4 + 60px); /* Lebar total 4 container dengan gap 20px */
+    margin: 0 auto; /* Pusatkan container */
+}
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+}
+
+/* Gambar film */
+.movie-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Detail film */
+.movie-details {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.movie-details h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.movie-details p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.movie-card-footer {
+    margin-top: auto;
+    margin-left: 10px;
+    padding: 10px; /* Atur padding sesuai kebutuhan */
+}
+
+.container-detail {
+    width: 400px;
+    height: auto;
+    background-color: red;
+}
+
+.movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 81.5vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-detail {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card-detail img {
+    width: 500px;
+    padding: 50px;
+    height: auto;
+    object-fit: cover;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.card-content h2 {
+    margin: 0;
+}
+.card-content .duration {
+    margin-top: 5px;
+}
